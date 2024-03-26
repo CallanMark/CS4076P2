@@ -2,6 +2,9 @@
 
 This project is a server-client application designed to manage and interact with a class schedule system. It enables clients to add or remove classes from their schedule, view their current schedule, and terminate the connection to the server. The server, in response, can inform the client when the timetable is full or confirm that a class has been successfully added. This simple yet efficient communication protocol streamlines the process of schedule management for both parties.
 
+## Comments 
+This is just the core code from part 1 of the project. This will be adapted for part 2 of the project.
+
 ## Actions Clients Can Request
 
 - `ac` -> **Add Class**: Adds a specified class to the schedule.
@@ -76,4 +79,5 @@ CREATE TABLE TimetableEntries (
     FOREIGN KEY (module_code) REFERENCES Modules(module_code)
 );
 ```
-
+## Assingment specification 
+Spec can be view in spec.md 
